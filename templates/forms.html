@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Previsão de diabetes</h1>
+    <form action="/predict" method="post">
+        <label for="Grávidez">Grávidez:</label>
+        <input type="number" id="Grávidez" name="Grávidez" required><br><br>
+        <label for="Glicose">Glicose:</label>
+        <input type="number" id="Glicose" name="Glicose" required><br><br>
+        <label for="Pressão_Sanguinea">Pressão_Sanguinea:</label>
+        <input type="number" id="Pressão_Sanguinea" name="Pressão_Sanguinea" required><br><br>
+        <label for="Insulina">Insulina:</label>
+        <input type="number" id="Insulina" name="Insulina" required><br><br>
+        <label for="BMI">BMI:</label>
+        <input type="number" id="BMI" name="BMI" required><br><br>
+        <label for="Idade">Idade:</label>
+        <input type="number" id="Idade" name="Idade" required><br><br>
+        <input type="submit" value="Identificar">
+    </form>
+</body>
+</html>
