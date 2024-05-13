@@ -38,7 +38,7 @@ def predict():
 
 
 
-app.run( # nao sei pra q serve...
+app.run(
     debug=True,
     port='5000'
 )
